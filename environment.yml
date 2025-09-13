@@ -1,0 +1,15 @@
+name: aiagent
+dependencies:
+  - python=3.10.12
+  - ipython
+  - pip
+  - pip:
+    - langgraph
+    - langchain_openai
+    - langchain_ollama
+    - langchain_community
+    - langchain_huggingface
+    - datasets
+    - rank_bm25
+    - sentence-transformers
+    - chromadb
