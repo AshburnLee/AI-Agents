@@ -40,5 +40,5 @@ for i, doc in enumerate(results, 1):
 """
 输出不符合预期，总是输出广州的哪个doc ！！
 
-不纠结在 BM25Retriever 了，输出总是不符合预期，需要的时候换一个工具，不吊死在一棵树上，况且它不一定用得上
+不纠结在 BM25Retriever 了，输出总是不符合预期. 考虑使用 Chroma 替换
 """

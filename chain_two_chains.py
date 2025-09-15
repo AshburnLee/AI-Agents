@@ -1,7 +1,3 @@
-'''
-我有一个具体任务，它可能需要两个大模型，需要两个步骤。第一步是将输入日文翻译成中文。第二步，对于上一步得到的中文内容,提取其中与食物相关的名词,并对每一个名词进行解释。
-是否可以根据你之前的回答内容给出具体实现？
-'''
 
 from langchain_ollama import ChatOllama
 from langchain.prompts import PromptTemplate
